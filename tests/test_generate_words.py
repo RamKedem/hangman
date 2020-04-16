@@ -3,6 +3,7 @@ import unittest
 
 TEST_SOURCE = '../'+ generate_words.SOURCE
 
+
 class TestGenerateWords(unittest.TestCase):
 
     def test_generate_strings_only(self, source=TEST_SOURCE):
